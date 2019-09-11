@@ -12,6 +12,10 @@ a {
     font-size: 45px;
 }
 
+a:hover {
+    color: #E5E545;
+}
+
 .coolDiv {
     text-align: center;
     margin: auto;
