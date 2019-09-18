@@ -37,6 +37,28 @@ a:hover {
     margin-left: -20px
 }
 
+.resumeHover {
+    background-color: #ffff4d;
+    color: black;
+    font-size: 12px;
+    display: none;
+    border-radius: 3px
+}
+
+.resume{
+    text-align: center;
+}
+
+.resume:hover .resumeHover {
+    
+    width: 40px;
+    display: block;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 2rem;
+}
+
 .icons img {
     width: 25px;
     height: 25px;

@@ -33,18 +33,29 @@
                     <img src="media/close-envelope.png" alt="">
                 </a>
             </li>
-            <li class="twitter">
-                <a href="https://twitter.com/gunnar_hoglund">
-                    <img src="media/twitter-logo-button.png" alt="">
+            <li class="resume">
+                <a href="">
+                    <img src="https://img.icons8.com/wired/64/000000/document.png">
+                    <p class="resumeHover">resume</p>
                 </a>
             </li>
+            <li class="themeToggle">
+                <div class="circle">
+                </div>
+            </li>
         </ul>
+        <script>
+            document.getElementById('circle').onclick = function () {
+                if (document.body.classList && document.body.classList.toggle) {
+                    document.body.classList.toggle('theme-night');
+                }
+            };
+        </script>
     </div>
     <div class="coolDiv">
         <a href="mailto:gunnar1hoglund@gmail.com">Gunnar Hoglund</a>
         <!-- <p class="geoff"> is a struggling college student</p> -->
-        <p class="geoff"> Give Him a Job</p>
-        <p>(Please)</p>
+        <p class="geoff"> Software Engineering Student</p>
     </div>
 </body>
 <script src="script.js"></script>
