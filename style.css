@@ -6,23 +6,7 @@ body {
     
 }
 
-.mainPage {
-    height: 100vh;
-    width: 100vh;
-}
 
-.overView {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1000px;
-    height: 90vh;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    border-radius: 25px;
-    color: #ffff4d;
-}
 
 .title {
     text-decoration: none;
@@ -55,12 +39,7 @@ a {
     transform: translate(-50%, -50%);
 }
 
-#geoff1 {
-    font-size: 26px;
-    text-align: center;
-}
-
-#geoff2 {
+.neato {
     font-size: 26px;
     text-align: center;
 }
@@ -120,4 +99,8 @@ li {
 
 .info {
     font-size: 1px;
+}
+
+hr {
+    color: #ffff4d;
 }
