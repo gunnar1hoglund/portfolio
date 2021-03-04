@@ -1,106 +1,67 @@
+
 body {
-    background-color: #4d4dff;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    
-}
-
-
-
-.title {
-    text-decoration: none;
-    color: #ffff4d;
-    font-size: 45px;
-    border-bottom: 2px solid transparent;
-    transition: all ease-in-out .2s;
-}
-
-a {
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-}
-
-.title:hover {
-    color: rgb(212, 212, 99);
-    border-color: rgb(212, 212, 99);
-}
-
-.coolDiv {
-    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+    max-width: 1024px;
     margin: auto;
-    width: 50%;
-    padding: 10px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.neato {
-    font-size: 26px;
-    text-align: center;
+.topBar {
+    
+    
+    padding: 25px;
 }
 
-.instagram {
-    margin-left: -20px
+.links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 10px;
 }
 
-.resumeHover {
-    background-color: #ffff4d;
-    color: black;
-    font-size: 12px;
-    display: none;
-    border-radius: 3px
-}
-
-.resume{
-    text-align: center;
-}
-
-.resume:hover .resumeHover {
-    width: 40px;
-    display: block;
-    padding: 4px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 2rem;
-}
-
-.icons img {
-    width: 35px;
-    height: 35px;
-    text-align: center;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    margin: 5px;
+.links a {
+    text-decoration: none;
 }
 
 
-@media (max-width: 960px){
-    .icons {
-        text-align: center;
+
+.darkLight {
+    margin-left: auto;
+    margin-right: 2rem;
+    background: none;
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+
+@media (prefers-color-scheme: light) {
+
+    :root {
+        background: linear-gradient(225deg, white, blue);    
+    
     }
 
-    .instagram {
-        margin-left: -30px;
+    a {
+        color: black;
     }
 
 }
 
-#name {
-    font-size: 24px;
-}
+@media (prefers-color-scheme: dark) {
 
-.info {
-    font-size: 1px;
-}
+    :root {
+        /* background: linear-gradient( 45deg, black 50%, grey ); */
+        background: #0E141B;
+    }  
 
-hr {
-    color: #ffff4d;
+    a {
+        color: white;
+    }
+
+    .darkLight svg {
+        color: grey;
+    }
 }
+ 

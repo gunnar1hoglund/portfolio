@@ -1,0 +1,41 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.system {
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+#topBar {
+    text-align: center;
+    background-color: #5555FF;
+    margin: 0;
+}
+
+#links {
+    margin-top: none;
+    text-decoration: none;
+    background-color: yellow;
+    outline: 2px solid black;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: black;
+    
+}
